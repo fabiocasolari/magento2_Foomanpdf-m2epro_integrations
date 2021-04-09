@@ -2,7 +2,7 @@
 
 vendor/fooman/pdfcustomiser-implementation-m2/src/Block/AbstractSalesDocument.php
 
-add after    $block->setTemplate($this->templateFileDecider->pick($this->getDesign(), 'shipping'));
+add after    $block->setTemplate($this->templateFileDecider->pick($this->getDesign(), 'shipping'));    (line 375)
 
         if(array_key_exists('channel_order_id', $this->getOrder()->getPayment()->getAdditionalInformation())) {
             $m2epro_description = 'Ordine ';
